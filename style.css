@@ -1,0 +1,231 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* body */
+body{
+  background-image: url("ai-generated-8659560_1280.jpg");
+  background-size: 100% 100%;
+}
+/* body */
+
+.cal-parent {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 12px 30px rgba(113, 112, 112, 0.6);
+  width: 22%;
+  height: 500px;
+  margin-top: 50px;
+  margin-left: 38%;
+  background-image: url("binary-code-7190628_640.jpg");
+  background-size: cover;
+}
+
+.designed {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 34px;
+}
+.designed > a {
+  color: #fff;
+  text-decoration: none;
+  font-style: italic;
+}
+
+/* Calculator Container */
+.calculator {
+  width: 84%;
+  height: 48px;
+  padding: 10px;
+  font-size: 24px;
+  background: rgb(255, 255, 255);
+  color: #000dff;
+  border-radius: 5px;
+  box-shadow: 0 12px 30px rgb(205, 202, 202);
+  position: relative;
+  top: 58px;
+  left: 26px;
+}
+
+/* Button Layout */
+.buttons-layout {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 20px;
+  column-gap: 16px;
+  margin-top: 100px;
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+/* Button Styling */
+button {
+  height: 48px;
+  font-size: 1.4rem;
+  border: none;
+  border-radius: 6px;
+  background: linear-gradient(
+    145deg,
+    #00ffe1,
+    #0a0076
+  ); /* Dark but with a smooth gradient */
+  color: #f4f4f4; /* Light color text */
+  cursor: pointer;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+button:hover {
+  background: linear-gradient(
+    145deg,
+    #fcd7d7,
+    #4aacb9
+  ); /* Darker hover effect */
+}
+
+button:active {
+  transform: scale(0.95);
+  background: linear-gradient(145deg, #000000, #150021);
+}
+
+/* Special Button Colors */
+button.clear {
+  background: linear-gradient(145deg, #ff7b00, #ff07b0);
+  color: white;
+}
+
+button.clear:hover {
+  background: linear-gradient(145deg, #918f8f, #ff0000);
+}
+button.clear:active {
+  transform: scale(0.95);
+  background: linear-gradient(145deg, #000000, #150021);
+}
+
+button.operator {
+  background: linear-gradient(145deg, #0aff91, #57ff04);
+  color: white;
+}
+
+button.operator:hover {
+  background: linear-gradient(145deg, #bde9d4, #06be71);
+}
+button.operator:active {
+  transform: scale(0.95);
+  background: linear-gradient(145deg, #000000, #150021);
+}
+
+/* AC Button for Clear */
+button.clear-all {
+  background: linear-gradient(145deg, #ff7b00, #ff07b0);
+  color: white;
+}
+
+button.clear-all:hover {
+  background: linear-gradient(145deg, #918f8f, #ff0000);
+}
+
+button.clear-all:active {
+  transform: scale(0.95);
+  background: linear-gradient(145deg, #000000, #150021);
+}
+
+/* media Queries */
+
+@media ((min-width: 280px) and (max-width: 556px)) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .cal-parent {
+    width: 90%;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    top: 100px;
+  }
+}
+
+@media ((min-width: 557px) and (max-width: 700px)) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .cal-parent {
+    width: 50%;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    top: 100px;
+  }
+}
+
+@media ((min-width: 700px) and (max-width: 1400px)) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .cal-parent {
+    width: 30%;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    top: 100px;
+  }
+}
+
+@media ((min-width: 1400px) and (max-width: 1840px)) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .cal-parent {
+    width: 20%;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    top: 100px;
+  }
+}
+
+@media ((min-width: 1840px) and (max-width: 2360px)) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .cal-parent {
+    width: 15%;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    top: 100px;
+  }
+}
+
+@media ((min-width: 2362px) and (max-width: 3000px)) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .cal-parent {
+    width: 12%;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    top: 100px;
+  }
+}
+
+/* media Queries */

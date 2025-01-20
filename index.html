@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <title>JavaScript Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="cal-parent">
+      <div class="designed">
+        <a
+          href="https://www.linkedin.com/in/fareed-gul-946329333/?lipi=urn%3Ali%3Apage%3Ad_flagship3_notifications%3BadlybTjZTVKIGOLmrpaW5w%3D%3D"
+          >@Designed by Fareed Gul</a
+        >
+      </div>
+      <div id="hardcoded-value" class="calculator"></div>
+      <div class="buttons-layout">
+        <button class="clear-all" onclick="allClear()">AC</button>
+        <button class="clear" onclick="clearOnText()">C</button>
+        <button class="operator" onclick="performCalculate('=')">=</button>
+        <button class="operator" onclick="writeOperation('+')">+</button>
+        <button class="operator" onclick="writeOperation('-')">-</button>
+        <button class="operator" onclick="writeOperation('*')">x</button>
+        <button class="operator" onclick="writeOperation('/')">/</button>
+        <button class="operator" onclick="writeOperation('.')">.</button>
+        <button class="btn" onclick="writeOperation(9)">9</button>
+        <button class="btn" onclick="writeOperation(8)">8</button>
+        <button class="btn" onclick="writeOperation(7)">7</button>
+        <button class="btn" onclick="writeOperation(6)">6</button>
+        <button class="btn" onclick="writeOperation(5)">5</button>
+        <button class="btn" onclick="writeOperation(4)">4</button>
+        <button class="btn" onclick="writeOperation(3)">3</button>
+        <button class="btn" onclick="writeOperation(2)">2</button>
+        <button class="btn" onclick="writeOperation(1)">1</button>
+        <button class="btn" onclick="writeOperation(0)">0</button>
+      </div>
+    </div>
+    <!-- JavaScript -->
+    <script src="app.calculator.js"></script>
+    <!-- JavaScript -->
+  </body>
+</html>
